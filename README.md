@@ -1,4 +1,4 @@
-# PlantApp
+# Cartovis
 
 Cartovis es la aplicación que te permite ver información sobre infraestructuras de servicios en España de forma geolocalizada
 
@@ -17,11 +17,12 @@ Pasos a seguir
      cd directorio_local
      git clone https://github.com/VicentGN/cartovis-react
      ``` 
-  2. Accede al directorio que almacena el backend de la app y carga las dependencias.
+  2. Accede al directorio que almacena el frontend de la app y carga las dependencias.
       ```
       cd cartovis-react
       npm i 
       npm start
+      ```
 
   3. Abre el navegador y accede al localhost para visualizar la app.
 
