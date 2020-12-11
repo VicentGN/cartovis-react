@@ -15,7 +15,7 @@ export class Welcome extends Component {
   render() {
 
     if (this.state.redirection) {
-      return <Redirect to="/map" />
+      return <Redirect to="/cartovis-react/map" />
     }
 
     return (
