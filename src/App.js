@@ -22,7 +22,7 @@ function App() {
 
         <Navbar />
     
-        <Route exact path="/cartovis-react" component={Welcome} />
+        <Route exact path="/cartovis-react/" component={Welcome} />
         <Route path="/cartovis-react/map" component={Mapa} />
         <Route path="/cartovis-react/userguide" component={Userguide} />
         <Route path="/cartovis-react/about" component={About} />
