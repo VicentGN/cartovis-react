@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+.fadeIn {
+    animation-name: fadeIn;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* WELCOME */
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('./assets/images/mapimage.jpg');
+    /*Photo by Capturing the human heart. on Unsplash */
+}
+
+@media (max-width: 1360px) {
+    .jumbotron {
+        max-width: 1920px;
+    }
+}
+
+
+/* MAP */
+
+#viewer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr;
+    z-index: 0;
+}
+
+.selectors {
+    margin: 15px 0px;
+}
+
+.title-panel {
+    border-bottom: 1px solid black;
+}
+
+.layer-list-map-item {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.layer-list-map-item>p>.title {
+    font-size: 1.2rem;
+}
+
+.layer-list-map-item:hover {
+    background-color: lightgray;
+}
+
+.spinner {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 300px;
+    width: 120px;
+    height: 120px;
+}
+
+.sr-only {
+    width: 100%;
+    height: 100%
 }

@@ -1,0 +1,11 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('./../assets/images/mapimage.jpg');
+    /*Photo by Capturing the human heart. on Unsplash */
+}
+
+@media (max-width: 1360px) {
+    .jumbotron {
+        max-width: 1920px;
+    }
+}
