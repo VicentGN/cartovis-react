@@ -22,10 +22,10 @@ function App() {
 
         <Navbar />
     
-        <Route exact path="/" component={Welcome} />
-        <Route path="/map" component={Mapa} />
-        <Route path="/userguide" component={Userguide} />
-        <Route path="/about" component={About} />
+        <Route exact path="/cartovis-react" component={Welcome} />
+        <Route path="/cartovis-react/map" component={Mapa} />
+        <Route path="/cartovis-react/userguide" component={Userguide} />
+        <Route path="/cartovis-react/about" component={About} />
 
        </Router>
       <Footer />
