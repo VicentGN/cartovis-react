@@ -8,7 +8,6 @@ import {
 import "leaflet/dist/leaflet.css";
 
 import ExternalResourceModal from './ExternalResourceModal';
-import LayersList from './LayersList.js'
 
 export class Mapa extends Component {
 
@@ -54,7 +53,6 @@ export class Mapa extends Component {
       <div>
         <div id="viewer">
           <div className="m-2">
-              <LayersList type="geojson" onClickHandler={this.insertGeoJSON} onSpinnerLoading={this.activateSpinner}/>
               <ExternalResourceModal onClickHandler={this.insertWms} onSpinnerLoading={this.activateSpinner} />
           </div>
           <MapContainer center={[38, -1]} zoom="5" style={this.style}>
