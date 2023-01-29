@@ -1,6 +1,6 @@
 # Cartovis
 
-Cartovis es la aplicación que te permite ver información sobre infraestructuras de servicios en España de forma geolocalizada
+Cartovis es la aplicación que te permite ver información geográfica sobre un visor.
 
 ## Requisitos previos
 Las siguientes aplicaciones deben estar instaladas en el ordenador:
