@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/cartovis-react/static/css/main.f7761fc1.chunk.css",
-    "main.js": "/cartovis-react/static/js/main.49ee2e31.chunk.js",
-    "main.js.map": "/cartovis-react/static/js/main.49ee2e31.chunk.js.map",
+    "main.js": "/cartovis-react/static/js/main.d7e95ddb.chunk.js",
+    "main.js.map": "/cartovis-react/static/js/main.d7e95ddb.chunk.js.map",
     "runtime-main.js": "/cartovis-react/static/js/runtime-main.618cfd72.js",
     "runtime-main.js.map": "/cartovis-react/static/js/runtime-main.618cfd72.js.map",
-    "static/css/2.b1713ebe.chunk.css": "/cartovis-react/static/css/2.b1713ebe.chunk.css",
-    "static/js/2.8301292f.chunk.js": "/cartovis-react/static/js/2.8301292f.chunk.js",
-    "static/js/2.8301292f.chunk.js.map": "/cartovis-react/static/js/2.8301292f.chunk.js.map",
+    "static/css/2.d5972c72.chunk.css": "/cartovis-react/static/css/2.d5972c72.chunk.css",
+    "static/js/2.c5b45aac.chunk.js": "/cartovis-react/static/js/2.c5b45aac.chunk.js",
+    "static/js/2.c5b45aac.chunk.js.map": "/cartovis-react/static/js/2.c5b45aac.chunk.js.map",
     "index.html": "/cartovis-react/index.html",
-    "static/css/2.b1713ebe.chunk.css.map": "/cartovis-react/static/css/2.b1713ebe.chunk.css.map",
+    "static/css/2.d5972c72.chunk.css.map": "/cartovis-react/static/css/2.d5972c72.chunk.css.map",
     "static/css/main.f7761fc1.chunk.css.map": "/cartovis-react/static/css/main.f7761fc1.chunk.css.map",
-    "static/js/2.8301292f.chunk.js.LICENSE.txt": "/cartovis-react/static/js/2.8301292f.chunk.js.LICENSE.txt",
+    "static/js/2.c5b45aac.chunk.js.LICENSE.txt": "/cartovis-react/static/js/2.c5b45aac.chunk.js.LICENSE.txt",
     "static/media/Welcome.css": "/cartovis-react/static/media/mapimage.e973844f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.618cfd72.js",
-    "static/css/2.b1713ebe.chunk.css",
-    "static/js/2.8301292f.chunk.js",
+    "static/css/2.d5972c72.chunk.css",
+    "static/js/2.c5b45aac.chunk.js",
     "static/css/main.f7761fc1.chunk.css",
-    "static/js/main.49ee2e31.chunk.js"
+    "static/js/main.d7e95ddb.chunk.js"
   ]
 }
