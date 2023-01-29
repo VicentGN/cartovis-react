@@ -8,8 +8,7 @@ export class About extends Component {
           <div className="col-12 ">
             <h2 className="text-center mt-5 ">Acerca de CartoVis</h2>
             <p className="text-center mt-2 ">
-              CartoVis es un proyecto que tiene como objetivo geolocalizar
-              infraestructuras y edificios presentes en España
+              CartoVis es un proyecto que tiene como objetivo mostrar información geográfica en un visor.
             </p>
             <p className="text-center ">
               El proyecto ha sido desarrollado con React y NodeJS

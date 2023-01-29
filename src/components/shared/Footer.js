@@ -8,9 +8,7 @@ export class Footer extends Component {
 				<p className="text-center">
 					Un proyecto diseñado por Vicent García - 2020
 					<br /> Datos obtenidos de{" "}
-					<a className="text-center" href="https://hub.arcgis.com">
-						ArcGIS Hub
-					</a>, <a className="text-center" href="https://www.ign.es">
+					<a className="text-center" href="https://www.ign.es">
 						Instituto Geográfico Nacional
 					</a> e <a className="text-center" href="http://www.icv.gva.es">
 						Instituto Cartográfico Valenciano
